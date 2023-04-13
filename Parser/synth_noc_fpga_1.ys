@@ -1,0 +1,4 @@
+read -vlog2k *.v
+read -sv *.sv
+hierarchy -top MAIN_fpga1
+synth_xilinx -top MAIN_fpga1 -family xc7 -edif top_fpga1.edif
