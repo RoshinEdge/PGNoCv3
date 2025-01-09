@@ -23,7 +23,7 @@ graph TD;
   A["Parser (folder)"]-->B["auto_scripts(folder)"]
   B["auto_scripts (folder)"]-->D["synth_noc_fpga_1.ys - synthesis of the connection list"]
 B["auto_scripts (folder)"]-->E["test_edif_script.tcl - implementation and generation of firmware for FPGAs"]
-``
+```
 - ***Switch***
 ```mermaid
 graph TD;
