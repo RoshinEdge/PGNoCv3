@@ -33,7 +33,7 @@ graph TD;
   B["Mode_commutator (folder) - bus commuter"]-->F["mod_rx_commut.v - application"];
   B["Mode_commutator (folder) - bus commuter"]-->G["mod_tx_commut.v - transmitter"];
   C["UDP_commutator (folder) - UDP switch"]-->E["new_commutator.rar - archive of the UDP switch project in Vivado"];
-``
+```
 
 ---
 
