@@ -7,7 +7,7 @@ Tasks:
 
 In this work, we used a network on a chip developed by the MIEM CAD Department. This network consists of N nodes (for example, there are 9 in the figure), each of which is a router and a schoolMIPS processor. This topology is called a circulant topology.
 
-<img src="topology.png" width=50% height=50%>
+<img src="топология.png" width=50% height=50%>
 
 Firmware generation software (parser) for two FPGAs makes it easier for a developer of on-chip networks and processors to prototype promising architectures on multiple FPGAs. The parser is parameterized, which makes it easy to split the network into two FPGAs: you need to specify which routers will be implemented in the selected FPGA. The synthesis of the connection list is based on the open source Yosys tool (https://github.com/YosysHQ/yosys ), which makes it easier to transfer the project to FPGAs from different manufacturers (Xilinx FPGAs were used in the project).
 
